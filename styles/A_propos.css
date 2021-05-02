@@ -22,8 +22,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 20px;
     margin: 60px auto;
-    background-color: rgba(238, 238, 238, 0.24);
+    background-color: #eeeeee3d;
 }
 
 .articles h1 {
@@ -74,6 +75,8 @@ main {
     color: #2c96c7;
     font-size: 1.6em;
 }
+
+/* _________ responsive _______ */
 
 @media (max-width:1024px) {
     .blocks {

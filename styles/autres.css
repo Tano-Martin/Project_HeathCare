@@ -11,8 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    margin: 80px 0;
+    padding: 30px;
 }
 
 .actualite {
@@ -30,23 +29,21 @@
 }
 
 .actualite>p>a:hover {
-    color: rgb(153, 51, 0);
+    color: #993300;
 }
 
 .corona {
-    height: 260px;
-    width: 300px;
+    height: 50%;
+    width: 100%;
     object-fit: cover;
 }
 
 .info {
-    margin: 20px;
     font-size: 22px;
+    padding: 10px;
 }
 
-.info a {
-    text-decoration: underline;
-}
+/* ________ responsive _______ */
 
 @media (max-width: 950px) {
     .box {
